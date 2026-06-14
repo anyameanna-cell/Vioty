@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+
 
 * {
     margin: 0;
@@ -10,6 +15,12 @@ body {
     background-color: #000;
     font-family: 'Manrope', sans-serif;
 }
+
+
+
+/* Navigations */
+
+
 
 .nav {
     margin-left: 104px;
@@ -31,7 +42,7 @@ body {
     transition: color 1s;
 }
 
-.nav-list-item:hover{
+.nav-list-item:hover {
     color: #D23166;
 }
 
@@ -43,23 +54,276 @@ body {
 
 .nav-links-item-social-media {
     border-radius: 24px;
-width: 38.57143020629883;
-height: 38.57143020629883;
-angle: 0 deg;
-opacity: 1;
-border-radius: 24.43px;
-padding: 10px;
-gap: 10.29px;
-background: rgba(255, 255, 255, 0.1);
-align-items: center;
+    width: 38.57143020629883;
+    height: 38.57143020629883;
+    opacity: 1;
+    border-radius: 24.43px;
+    padding: 10px;
+    gap: 10.29px;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
 
 }
 
-.nav-list a, .nav-links a {
+.nav-list a,
+.nav-links a {
     color: white;
     text-decoration: none;
     font-family: inherit;
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
+}
+
+
+
+
+
+/* Main */
+
+
+
+
+
+
+.main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.suptitle {
+    color: #ffff;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+
+    line-height: 100%;
+    letter-spacing: 10%;
+    padding-bottom: 20px;
+}
+
+.main-title {
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 57.33px;
+
+    line-height: 94%;
+    letter-spacing: -7%;
+    color: #ffff;
+}
+
+.ice-cream-pink {
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 57.33px;
+
+    line-height: 94%;
+    letter-spacing: -7%;
+    color: #D23166;
+}
+
+.desc {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #ffff;
+    opacity: 60%;
+    padding-top: 16px;
+}
+
+.buy-now {
+    width: 165px;
+    height: 49px;
+    padding-top: 13px;
+    padding-right: 50px;
+    padding-bottom: 13px;
+    padding-left: 50px;
+    gap: 10px;
+    opacity: 1;
+    border-radius: 5px;
+    background-color: #D23166;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffff;
+    border: none;
+    margin-top: 61.5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buy-now:hover {
+background: #e84779; 
+}
+
+
+.ice-cream-photo {
+    height: 600px;
+
+}
+
+
+
+
+/* About */
+
+.about {
+    width: 100%;
+    max-width: 1248px;
+    opacity: 0.9;
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 57.33px;
+    line-height: 120%;
+    letter-spacing: -7%;
+    text-align: center;
+    color: #ffff;
+    padding-top: 126px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
+
+.gray {
+    font-family: 'Alexandria', sans-serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 57.33px;
+    line-height: 120%;
+    letter-spacing: -7%;
+    text-align: center;
+    opacity: 20%;
+}
+
+
+
+/* Our Product */
+
+.products {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.product {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.our-product-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 94%;
+    color: #fff;
+    margin-bottom: 56px;
+}
+
+/* Product List */
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+/* Product Item */
+
+.product-list-item {
+    width: 297px;
+    list-style: none;
+}
+
+/* Card */
+
+.product-list-item-card {
+    width: 100%;
+}
+
+/* Image */
+
+.product-list-item-img {
+    width: 100%;
+    height: 274px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    display: block;
+}
+
+/* Description Card */
+
+.product-list-item-card-desc-card {
+    background: #151515;
+    padding: 24px 30px;
+    border-radius: 0 0 20px 20px;
+}
+
+/* Flavor Title */
+
+.product-list-item-card-desc-card-flavour-title {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+/* Description */
+
+.product-list-item-card-desc-card-about {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 24px;
+}
+
+/* Price */
+
+.product-list-item-card-desc-card-price {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.last-price {
+    font-size: 20px;
+    color: rgba(255,255,255,0.6);
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+/* Button */
+
+.btn-buy-flavour {
+    width: 100%;
+    height: 49px;
+    border: none;
+    border-radius: 5px;
+    background: #D23166;
+    color: #fff;
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-buy-flavour:hover {
+    background: #e84779;
 }
