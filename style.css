@@ -115,7 +115,7 @@ body {
     color: #ffff;
 }
 
-.ice-cream-pink {
+.ice-cream-coloured {
     font-family: 'Alexandria', sans-serif;
     font-weight: 400;
     font-style: Regular;
@@ -163,7 +163,7 @@ body {
 }
 
 .buy-now:hover {
-background: #e84779; 
+    background: #e84779;
 }
 
 
@@ -216,7 +216,33 @@ background: #e84779;
 
 .product {
     max-width: 1320px;
-    margin: 0 auto;
+    margin-left: 230px;
+}
+
+.title-and-arrows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrows-one-arrow {
+    color: white;
+    opacity: 90%;
+    background-color: #151515;
+    border: none;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+    gap: 12.8px;
+    padding: 12.8px;
+    padding-right: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.arrows-one-arrow:hover {
+    background-color: #2b2b2b;
 }
 
 .our-product-title {
@@ -225,7 +251,7 @@ background: #e84779;
     font-size: 56px;
     line-height: 94%;
     color: #fff;
-    margin-bottom: 56px;
+    margin-bottom: 0;
 }
 
 /* Product List */
@@ -238,6 +264,7 @@ background: #e84779;
     gap: 20px;
     padding: 0;
     margin: 0;
+    margin-top: 56px;
 }
 
 /* Product Item */
@@ -287,7 +314,7 @@ background: #e84779;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 24px;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
     margin-bottom: 24px;
 }
 
@@ -303,7 +330,7 @@ background: #e84779;
 
 .last-price {
     font-size: 20px;
-    color: rgba(255,255,255,0.6);
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: line-through;
     margin-left: 8px;
 }
@@ -326,4 +353,196 @@ background: #e84779;
 
 .btn-buy-flavour:hover {
     background: #e84779;
+}
+
+
+/* Order the app */
+
+.ordering {
+    margin-left: 230px;
+    display: flex;
+}
+
+.ordering-app-img {
+    width: 782px;
+    height: 810px;
+    opacity: 1;
+    margin-left: 266px;
+
+}
+
+.ordering-title {
+    color: #ffff;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 94%;
+    letter-spacing: -7%;
+    margin-top: 185px;
+
+}
+
+.ordering-title-coloured {
+    font-family: 'Roboto', serif;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 94%;
+    letter-spacing: -7%;
+    opacity: 90%;
+    color: #D23166;
+}
+
+.ordering-desc {
+    opacity: 60%;
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #ffff;
+    margin-top: 16px;
+
+}
+
+.ordering-steps {
+    margin-top: 74px;
+}
+
+.ordering-steps-step {
+    display: flex;
+    margin-top: 36px;
+    align-items: center;
+}
+
+.ordering-steps-step-number {
+    width: 47px;
+    height: 47px;
+    opacity: 0.6;
+    border-radius: 50%;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: white;
+    opacity: 60%;
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ordering-steps-step-desc {
+    color: white;
+    opacity: 60%;
+    font-family: Manrope;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    margin-left: 26px;
+}
+
+
+.ordering-app {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+
+.ordering-app-link-image {
+    object-fit: contain;
+    display: block;
+    width: 167px;
+    height: 56px;
+    opacity: 1;
+    border-width: 0.98px;
+    padding-top: 8.14px;
+    padding-right: 11.4px;
+    padding-bottom: 8.14px;
+    padding-left: 11.4px;
+    gap: 8.14px;
+    border-radius: 9.12px;
+    border: 1px solid #fff;
+    transition: 1s;
+
+}
+
+.ordering-app-link-image:hover {
+    width: 177px;
+    height: 67px;
+}
+
+/* Questions */
+.contact-title {
+    color: #fff;
+    font-family: Alexandria;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 57.33px;
+    line-height: 94%;
+    letter-spacing: -7%;
+    text-align: center;
+    margin-top: 223px;
+}
+
+.contact-title-coloured {
+    color: #D23166;
+
+}
+
+.contact-enter {
+    max-width: 615px;
+    margin: 60px auto ;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.contact-enter-form-field {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 1000px;
+    width: 160%;
+    height: 70px;
+    padding: 0 160px 0 30px;
+    color: #fff;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    outline: none;
+    opacity: 1;
+    transition: 1s;
+}
+
+.contact-enter-form-field:focus {
+    border-color: #D23166;
+}
+
+.contact-enter-submit {
+    width: 134;
+    height: 70;
+    opacity: 1;
+    padding-top: 28px;
+    padding-right: 31px;
+    padding-bottom: 28px;
+    padding-left: 31px;
+    gap: 10px;
+    border-radius: 1000px;
+    background-color: #D23166;
+    margin-left: 150px;
+    border: none;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+
 }
