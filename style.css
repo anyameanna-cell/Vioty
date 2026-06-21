@@ -17,6 +17,10 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth ;
+}
+
 
 
 /* Navigations */
@@ -38,12 +42,12 @@ body {
     list-style: none;
 }
 
-.nav-list-item {
+.nav-list-item-link {
     cursor: pointer;
     transition: color 1s;
 }
 
-.nav-list-item:hover {
+.nav-list-item-link:hover {
     color: #D23166;
 }
 
@@ -652,6 +656,7 @@ body {
     color: white;
     opacity: 0.8;
     margin-top: 10px;
+    
 }
 
 .column-three-title {
