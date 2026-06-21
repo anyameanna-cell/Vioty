@@ -64,7 +64,11 @@ body {
     gap: 10.29px;
     background: rgba(255, 255, 255, 0.1);
     align-items: center;
+    transition: 1s;
+}
 
+.nav-links-item-social-media:hover{
+    background-color: #D23166;
 }
 
 .nav-list a,
@@ -171,7 +175,7 @@ body {
 
 .ice-cream-photo {
     height: 600px;
- margin-left: -230px;
+ margin-left: -180px;
 }
 
 
