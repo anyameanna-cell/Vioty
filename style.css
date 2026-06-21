@@ -508,13 +508,19 @@ body {
     align-items: center;
 }
 
+.contact-enter-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
 .contact-enter-form-field {
     background: none;
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-radius: 1000px;
-    width: 160%;
+    width: 100%;
     height: 70px;
-    padding: 0 160px 0 30px;
+    padding: 0 150px 0 30px;
     color: #fff;
     font-family: 'Manrope', sans-serif;
     font-size: 16px;
@@ -527,26 +533,21 @@ body {
     border-color: #D23166;
 }
 
-.contact-enter-submit {
-    width: 134;
-    height: 70;
+.contact-enter-form-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 134px;
+    height: 70px;
     opacity: 1;
-    padding-top: 28px;
-    padding-right: 31px;
-    padding-bottom: 28px;
-    padding-left: 31px;
-    gap: 10px;
-    border-radius: 1000px;
+    border-radius: 100px;
     background-color: #D23166;
-    margin-left: 150px;
     border: none;
     font-family: Roboto;
     font-weight: 500;
     font-size: 15px;
-    line-height: 100%;
-    letter-spacing: 0%;
     color: #fff;
-
+    cursor: pointer;
 }
 
 
@@ -594,11 +595,11 @@ body {
 }
 
 .footer-nav-links {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     gap: 16px;
     padding: 0;
-    margin-top: 24px; 
+    margin-top: 24px;
     margin-left: 225px;
 }
 
@@ -612,101 +613,101 @@ body {
     margin-bottom: 100px;
 }
 
-.column-two-title{
+.column-two-title {
     font-family: Manrope;
-font-weight: 600;
-font-style: SemiBold;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-color: #fff;
-margin-left: 178px;
-margin-top: 100px;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fff;
+    margin-left: 178px;
+    margin-top: 100px;
 }
 
-.column-two-list{
+.column-two-list {
     list-style: none;
     margin-left: 178px;
     margin-top: 33px;
 }
 
-.column-two-list-item{
+.column-two-list-item {
     font-family: Manrope;
-font-weight: 500;
-font-style: Medium;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: justify;
-color: white;
-opacity: 0.8;
-margin-top: 10px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: white;
+    opacity: 0.8;
+    margin-top: 10px;
 }
 
-.column-three-title{
-  color: #fff;
-margin-left: 178px;
-margin-top: 100px;
-font-family: Manrope;
-font-weight: 600;
-font-style: SemiBold;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: uppercase;
+.column-three-title {
+    color: #fff;
+    margin-left: 178px;
+    margin-top: 100px;
+    font-family: Manrope;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
 
 }
 
-.column-three-list{
+.column-three-list {
     list-style: none;
     margin-left: 178px;
     margin-top: 33px;
 }
 
-.column-three-list-item a{
-font-family: Manrope;
-font-weight: 500;
-font-style: Medium;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: justify;
-color: white;
-opacity: 0.8;
-margin-top: 10px;
-text-decoration: none;
+.column-three-list-item a {
+    font-family: Manrope;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: white;
+    opacity: 0.8;
+    margin-top: 10px;
+    text-decoration: none;
 }
 
-.column-four-title{
-  color: #fff;
-margin-left: 178px;
-margin-top: 100px;
-font-family: Manrope;
-font-weight: 600;
-font-style: SemiBold;
-font-size: 20px;
-line-height: 100%;
-letter-spacing: 0%;
-text-transform: uppercase;
+.column-four-title {
+    color: #fff;
+    margin-left: 178px;
+    margin-top: 100px;
+    font-family: Manrope;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
 
 }
 
 
-.column-four-list{
+.column-four-list {
     list-style: none;
     margin-left: 178px;
     margin-top: 33px;
 }
 
-.column-four-list-item{
+.column-four-list-item {
     font-family: Manrope;
-font-weight: 500;
-font-style: Medium;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: 0%;
-text-align: justify;
-color: white;
-opacity: 0.8;
-margin-top: 10px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    color: white;
+    opacity: 0.8;
+    margin-top: 10px;
 }
