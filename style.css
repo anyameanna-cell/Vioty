@@ -92,7 +92,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 230px;
+    margin-left: 180px;
 }
 
 .suptitle {
@@ -114,7 +114,7 @@ body {
     font-size: 57.33px;
     line-height: 94%;
     letter-spacing: -7%;
-    color: #fff;
+    color: #ffff;
 }
 
 .ice-cream-coloured {
@@ -171,7 +171,7 @@ body {
 
 .ice-cream-photo {
     height: 600px;
- margin-left: -180px;
+ margin-left: -230px;
 }
 
 
